@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD29A4C01B2B58AA00B61283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29A4BF1B2B58AA00B61283 /* AppDelegate.swift */; };
+		CD29A4C21B2B58AA00B61283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29A4C11B2B58AA00B61283 /* ViewController.swift */; };
+		CD29A4C51B2B58AA00B61283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD29A4C31B2B58AA00B61283 /* Main.storyboard */; };
+		CD29A4C71B2B58AA00B61283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD29A4C61B2B58AA00B61283 /* Assets.xcassets */; };
+		CD29A4CA1B2B58AA00B61283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD29A4C81B2B58AA00B61283 /* LaunchScreen.storyboard */; };
+		CD29A4D51B2B58AA00B61283 /* MovenExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29A4D41B2B58AA00B61283 /* MovenExperimentTests.swift */; };
+		CD29A4E01B2B58AA00B61283 /* MovenExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29A4DF1B2B58AA00B61283 /* MovenExperimentUITests.swift */; };
+		CD29A4E51B2B58AA00B61283 /* MovenExperiment WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CD29A4E41B2B58AA00B61283 /* MovenExperiment WatchKit App.app */; };
+		CD29A4EB1B2B58AA00B61283 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD29A4E91B2B58AA00B61283 /* Interface.storyboard */; };
+		CD29A4ED1B2B58AA00B61283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD29A4EC1B2B58AA00B61283 /* Assets.xcassets */; };
+		CD29A4F41B2B58AA00B61283 /* MovenExperiment WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD29A4F31B2B58AA00B61283 /* MovenExperiment WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD29A4FB1B2B58AA00B61283 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29A4FA1B2B58AA00B61283 /* InterfaceController.swift */; };
+		CD29A4FD1B2B58AA00B61283 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29A4FC1B2B58AA00B61283 /* ExtensionDelegate.swift */; };
+		CD29A4FF1B2B58AA00B61283 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29A4FE1B2B58AA00B61283 /* NotificationController.swift */; };
+		CD29A5011B2B58AA00B61283 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29A5001B2B58AA00B61283 /* GlanceController.swift */; };
+		CD29A5031B2B58AA00B61283 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29A5021B2B58AA00B61283 /* ComplicationController.swift */; };
+		CD29A5051B2B58AA00B61283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD29A5041B2B58AA00B61283 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD29A4D11B2B58AA00B61283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD29A4B41B2B58AA00B61283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD29A4BB1B2B58AA00B61283;
+			remoteInfo = MovenExperiment;
+		};
+		CD29A4DC1B2B58AA00B61283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD29A4B41B2B58AA00B61283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD29A4BB1B2B58AA00B61283;
+			remoteInfo = MovenExperiment;
+		};
+		CD29A4E61B2B58AA00B61283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD29A4B41B2B58AA00B61283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD29A4E31B2B58AA00B61283;
+			remoteInfo = "MovenExperiment WatchKit App";
+		};
+		CD29A4F51B2B58AA00B61283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD29A4B41B2B58AA00B61283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD29A4F21B2B58AA00B61283;
+			remoteInfo = "MovenExperiment WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD29A50C1B2B58AA00B61283 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD29A4F41B2B58AA00B61283 /* MovenExperiment WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A5101B2B58AA00B61283 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CD29A4E51B2B58AA00B61283 /* MovenExperiment WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD29A4BC1B2B58AA00B61283 /* MovenExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovenExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD29A4BF1B2B58AA00B61283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD29A4C11B2B58AA00B61283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD29A4C41B2B58AA00B61283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD29A4C61B2B58AA00B61283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD29A4C91B2B58AA00B61283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD29A4CB1B2B58AA00B61283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD29A4D01B2B58AA00B61283 /* MovenExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovenExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD29A4D41B2B58AA00B61283 /* MovenExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovenExperimentTests.swift; sourceTree = "<group>"; };
+		CD29A4D61B2B58AA00B61283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD29A4DB1B2B58AA00B61283 /* MovenExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovenExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD29A4DF1B2B58AA00B61283 /* MovenExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovenExperimentUITests.swift; sourceTree = "<group>"; };
+		CD29A4E11B2B58AA00B61283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD29A4E41B2B58AA00B61283 /* MovenExperiment WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MovenExperiment WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD29A4EA1B2B58AA00B61283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CD29A4EC1B2B58AA00B61283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD29A4EE1B2B58AA00B61283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD29A4F31B2B58AA00B61283 /* MovenExperiment WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MovenExperiment WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD29A4F91B2B58AA00B61283 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CD29A4FA1B2B58AA00B61283 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CD29A4FC1B2B58AA00B61283 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CD29A4FE1B2B58AA00B61283 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CD29A5001B2B58AA00B61283 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		CD29A5021B2B58AA00B61283 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		CD29A5041B2B58AA00B61283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD29A5061B2B58AA00B61283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD29A4B91B2B58AA00B61283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A4CD1B2B58AA00B61283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A4D81B2B58AA00B61283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A4F01B2B58AA00B61283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD29A4B31B2B58AA00B61283 = {
+			isa = PBXGroup;
+			children = (
+				CD29A4BE1B2B58AA00B61283 /* MovenExperiment */,
+				CD29A4D31B2B58AA00B61283 /* MovenExperimentTests */,
+				CD29A4DE1B2B58AA00B61283 /* MovenExperimentUITests */,
+				CD29A4E81B2B58AA00B61283 /* MovenExperiment WatchKit App */,
+				CD29A4F71B2B58AA00B61283 /* MovenExperiment WatchKit Extension */,
+				CD29A4BD1B2B58AA00B61283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD29A4BD1B2B58AA00B61283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD29A4BC1B2B58AA00B61283 /* MovenExperiment.app */,
+				CD29A4D01B2B58AA00B61283 /* MovenExperimentTests.xctest */,
+				CD29A4DB1B2B58AA00B61283 /* MovenExperimentUITests.xctest */,
+				CD29A4E41B2B58AA00B61283 /* MovenExperiment WatchKit App.app */,
+				CD29A4F31B2B58AA00B61283 /* MovenExperiment WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD29A4BE1B2B58AA00B61283 /* MovenExperiment */ = {
+			isa = PBXGroup;
+			children = (
+				CD29A4BF1B2B58AA00B61283 /* AppDelegate.swift */,
+				CD29A4C11B2B58AA00B61283 /* ViewController.swift */,
+				CD29A4C31B2B58AA00B61283 /* Main.storyboard */,
+				CD29A4C61B2B58AA00B61283 /* Assets.xcassets */,
+				CD29A4C81B2B58AA00B61283 /* LaunchScreen.storyboard */,
+				CD29A4CB1B2B58AA00B61283 /* Info.plist */,
+			);
+			path = MovenExperiment;
+			sourceTree = "<group>";
+		};
+		CD29A4D31B2B58AA00B61283 /* MovenExperimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD29A4D41B2B58AA00B61283 /* MovenExperimentTests.swift */,
+				CD29A4D61B2B58AA00B61283 /* Info.plist */,
+			);
+			path = MovenExperimentTests;
+			sourceTree = "<group>";
+		};
+		CD29A4DE1B2B58AA00B61283 /* MovenExperimentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD29A4DF1B2B58AA00B61283 /* MovenExperimentUITests.swift */,
+				CD29A4E11B2B58AA00B61283 /* Info.plist */,
+			);
+			path = MovenExperimentUITests;
+			sourceTree = "<group>";
+		};
+		CD29A4E81B2B58AA00B61283 /* MovenExperiment WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CD29A4E91B2B58AA00B61283 /* Interface.storyboard */,
+				CD29A4EC1B2B58AA00B61283 /* Assets.xcassets */,
+				CD29A4EE1B2B58AA00B61283 /* Info.plist */,
+			);
+			path = "MovenExperiment WatchKit App";
+			sourceTree = "<group>";
+		};
+		CD29A4F71B2B58AA00B61283 /* MovenExperiment WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CD29A4FA1B2B58AA00B61283 /* InterfaceController.swift */,
+				CD29A4FC1B2B58AA00B61283 /* ExtensionDelegate.swift */,
+				CD29A4FE1B2B58AA00B61283 /* NotificationController.swift */,
+				CD29A5001B2B58AA00B61283 /* GlanceController.swift */,
+				CD29A5021B2B58AA00B61283 /* ComplicationController.swift */,
+				CD29A5041B2B58AA00B61283 /* Assets.xcassets */,
+				CD29A5061B2B58AA00B61283 /* Info.plist */,
+				CD29A4F81B2B58AA00B61283 /* Supporting Files */,
+			);
+			path = "MovenExperiment WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CD29A4F81B2B58AA00B61283 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD29A4F91B2B58AA00B61283 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD29A4BB1B2B58AA00B61283 /* MovenExperiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD29A5111B2B58AA00B61283 /* Build configuration list for PBXNativeTarget "MovenExperiment" */;
+			buildPhases = (
+				CD29A4B81B2B58AA00B61283 /* Sources */,
+				CD29A4B91B2B58AA00B61283 /* Frameworks */,
+				CD29A4BA1B2B58AA00B61283 /* Resources */,
+				CD29A5101B2B58AA00B61283 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD29A4E71B2B58AA00B61283 /* PBXTargetDependency */,
+			);
+			name = MovenExperiment;
+			productName = MovenExperiment;
+			productReference = CD29A4BC1B2B58AA00B61283 /* MovenExperiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD29A4CF1B2B58AA00B61283 /* MovenExperimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD29A5141B2B58AA00B61283 /* Build configuration list for PBXNativeTarget "MovenExperimentTests" */;
+			buildPhases = (
+				CD29A4CC1B2B58AA00B61283 /* Sources */,
+				CD29A4CD1B2B58AA00B61283 /* Frameworks */,
+				CD29A4CE1B2B58AA00B61283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD29A4D21B2B58AA00B61283 /* PBXTargetDependency */,
+			);
+			name = MovenExperimentTests;
+			productName = MovenExperimentTests;
+			productReference = CD29A4D01B2B58AA00B61283 /* MovenExperimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD29A4DA1B2B58AA00B61283 /* MovenExperimentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD29A5171B2B58AA00B61283 /* Build configuration list for PBXNativeTarget "MovenExperimentUITests" */;
+			buildPhases = (
+				CD29A4D71B2B58AA00B61283 /* Sources */,
+				CD29A4D81B2B58AA00B61283 /* Frameworks */,
+				CD29A4D91B2B58AA00B61283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD29A4DD1B2B58AA00B61283 /* PBXTargetDependency */,
+			);
+			name = MovenExperimentUITests;
+			productName = MovenExperimentUITests;
+			productReference = CD29A4DB1B2B58AA00B61283 /* MovenExperimentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD29A4E31B2B58AA00B61283 /* MovenExperiment WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD29A50D1B2B58AA00B61283 /* Build configuration list for PBXNativeTarget "MovenExperiment WatchKit App" */;
+			buildPhases = (
+				CD29A4E21B2B58AA00B61283 /* Resources */,
+				CD29A50C1B2B58AA00B61283 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD29A4F61B2B58AA00B61283 /* PBXTargetDependency */,
+			);
+			name = "MovenExperiment WatchKit App";
+			productName = "MovenExperiment WatchKit App";
+			productReference = CD29A4E41B2B58AA00B61283 /* MovenExperiment WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CD29A4F21B2B58AA00B61283 /* MovenExperiment WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD29A5091B2B58AA00B61283 /* Build configuration list for PBXNativeTarget "MovenExperiment WatchKit Extension" */;
+			buildPhases = (
+				CD29A4EF1B2B58AA00B61283 /* Sources */,
+				CD29A4F01B2B58AA00B61283 /* Frameworks */,
+				CD29A4F11B2B58AA00B61283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MovenExperiment WatchKit Extension";
+			productName = "MovenExperiment WatchKit Extension";
+			productReference = CD29A4F31B2B58AA00B61283 /* MovenExperiment WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD29A4B41B2B58AA00B61283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Moven;
+				TargetAttributes = {
+					CD29A4BB1B2B58AA00B61283 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CD29A4CF1B2B58AA00B61283 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CD29A4BB1B2B58AA00B61283;
+					};
+					CD29A4DA1B2B58AA00B61283 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CD29A4BB1B2B58AA00B61283;
+					};
+					CD29A4E31B2B58AA00B61283 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CD29A4F21B2B58AA00B61283 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = CD29A4B71B2B58AA00B61283 /* Build configuration list for PBXProject "MovenExperiment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD29A4B31B2B58AA00B61283;
+			productRefGroup = CD29A4BD1B2B58AA00B61283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD29A4BB1B2B58AA00B61283 /* MovenExperiment */,
+				CD29A4CF1B2B58AA00B61283 /* MovenExperimentTests */,
+				CD29A4DA1B2B58AA00B61283 /* MovenExperimentUITests */,
+				CD29A4E31B2B58AA00B61283 /* MovenExperiment WatchKit App */,
+				CD29A4F21B2B58AA00B61283 /* MovenExperiment WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD29A4BA1B2B58AA00B61283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD29A4CA1B2B58AA00B61283 /* LaunchScreen.storyboard in Resources */,
+				CD29A4C71B2B58AA00B61283 /* Assets.xcassets in Resources */,
+				CD29A4C51B2B58AA00B61283 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A4CE1B2B58AA00B61283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A4D91B2B58AA00B61283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A4E21B2B58AA00B61283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD29A4ED1B2B58AA00B61283 /* Assets.xcassets in Resources */,
+				CD29A4EB1B2B58AA00B61283 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A4F11B2B58AA00B61283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD29A5051B2B58AA00B61283 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD29A4B81B2B58AA00B61283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD29A4C21B2B58AA00B61283 /* ViewController.swift in Sources */,
+				CD29A4C01B2B58AA00B61283 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A4CC1B2B58AA00B61283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD29A4D51B2B58AA00B61283 /* MovenExperimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A4D71B2B58AA00B61283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD29A4E01B2B58AA00B61283 /* MovenExperimentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD29A4EF1B2B58AA00B61283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD29A4FF1B2B58AA00B61283 /* NotificationController.swift in Sources */,
+				CD29A4FD1B2B58AA00B61283 /* ExtensionDelegate.swift in Sources */,
+				CD29A5031B2B58AA00B61283 /* ComplicationController.swift in Sources */,
+				CD29A4FB1B2B58AA00B61283 /* InterfaceController.swift in Sources */,
+				CD29A5011B2B58AA00B61283 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD29A4D21B2B58AA00B61283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD29A4BB1B2B58AA00B61283 /* MovenExperiment */;
+			targetProxy = CD29A4D11B2B58AA00B61283 /* PBXContainerItemProxy */;
+		};
+		CD29A4DD1B2B58AA00B61283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD29A4BB1B2B58AA00B61283 /* MovenExperiment */;
+			targetProxy = CD29A4DC1B2B58AA00B61283 /* PBXContainerItemProxy */;
+		};
+		CD29A4E71B2B58AA00B61283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD29A4E31B2B58AA00B61283 /* MovenExperiment WatchKit App */;
+			targetProxy = CD29A4E61B2B58AA00B61283 /* PBXContainerItemProxy */;
+		};
+		CD29A4F61B2B58AA00B61283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD29A4F21B2B58AA00B61283 /* MovenExperiment WatchKit Extension */;
+			targetProxy = CD29A4F51B2B58AA00B61283 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD29A4C31B2B58AA00B61283 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD29A4C41B2B58AA00B61283 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD29A4C81B2B58AA00B61283 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD29A4C91B2B58AA00B61283 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD29A4E91B2B58AA00B61283 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD29A4EA1B2B58AA00B61283 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD29A5071B2B58AA00B61283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD29A5081B2B58AA00B61283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD29A50A1B2B58AA00B61283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "MovenExperiment WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moven.MovenExperiment.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		CD29A50B1B2B58AA00B61283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "MovenExperiment WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moven.MovenExperiment.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		CD29A50E1B2B58AA00B61283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = MovenExperiment_WatchKit_Extension;
+				INFOPLIST_FILE = "MovenExperiment WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moven.MovenExperiment.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		CD29A50F1B2B58AA00B61283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = MovenExperiment_WatchKit_Extension;
+				INFOPLIST_FILE = "MovenExperiment WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moven.MovenExperiment.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		CD29A5121B2B58AA00B61283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MovenExperiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moven.MovenExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD29A5131B2B58AA00B61283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MovenExperiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moven.MovenExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD29A5151B2B58AA00B61283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MovenExperimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moven.MovenExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovenExperiment.app/MovenExperiment";
+			};
+			name = Debug;
+		};
+		CD29A5161B2B58AA00B61283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MovenExperimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moven.MovenExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovenExperiment.app/MovenExperiment";
+			};
+			name = Release;
+		};
+		CD29A5181B2B58AA00B61283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MovenExperimentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moven.MovenExperimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MovenExperiment;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD29A5191B2B58AA00B61283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MovenExperimentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moven.MovenExperimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MovenExperiment;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD29A4B71B2B58AA00B61283 /* Build configuration list for PBXProject "MovenExperiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD29A5071B2B58AA00B61283 /* Debug */,
+				CD29A5081B2B58AA00B61283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD29A5091B2B58AA00B61283 /* Build configuration list for PBXNativeTarget "MovenExperiment WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD29A50A1B2B58AA00B61283 /* Debug */,
+				CD29A50B1B2B58AA00B61283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD29A50D1B2B58AA00B61283 /* Build configuration list for PBXNativeTarget "MovenExperiment WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD29A50E1B2B58AA00B61283 /* Debug */,
+				CD29A50F1B2B58AA00B61283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD29A5111B2B58AA00B61283 /* Build configuration list for PBXNativeTarget "MovenExperiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD29A5121B2B58AA00B61283 /* Debug */,
+				CD29A5131B2B58AA00B61283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD29A5141B2B58AA00B61283 /* Build configuration list for PBXNativeTarget "MovenExperimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD29A5151B2B58AA00B61283 /* Debug */,
+				CD29A5161B2B58AA00B61283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD29A5171B2B58AA00B61283 /* Build configuration list for PBXNativeTarget "MovenExperimentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD29A5181B2B58AA00B61283 /* Debug */,
+				CD29A5191B2B58AA00B61283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD29A4B41B2B58AA00B61283 /* Project object */;
+}
